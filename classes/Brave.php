@@ -12,7 +12,7 @@ class Brave extends Human
     {
         parent::__construct($name, $this->hitPoint, $this->attackPoint);
     }
-
+ 
     // シングルトンで常にインスタンスは一つしか生成しない
     public static function getInstance($name)
     {
